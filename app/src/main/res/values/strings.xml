@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetoBaseDeDados</string>
+    <string name="artistaDetails">Artista:</string>
+    <string name="albumDetails">Nome do Album:</string>
+    <string name="albumDetail">Nome do Album:</string>
+    <string name="dataDetails">Lançamento:</string>
+</resources>

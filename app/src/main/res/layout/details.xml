@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/imageRow"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/image" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/textRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/album"
+                android:text="@string/albumDetail"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/albumDetail"
+                android:text="asdasd"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+
+            <TextView
+                android:id="@+id/artista"
+                android:text="@string/artistaDetails"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/artistaDetail"
+                android:text="asdasd"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+
+            <TextView
+                android:id="@+id/dataLancamento"
+                android:text="@string/dataDetails"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/dataLancamentoDetail"
+                android:text="asdasd"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
